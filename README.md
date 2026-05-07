@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ---
 
-## Overview
+## Public Version Overview (if interested in accessing proprietary codebase, please reach out to owner!)
 
 RapiFlip is a data engineering application that retrieves, processes, and evaluates property data at scale using Snowflake. It applies custom comparable-property selection logic and investment heuristics to generate actionable insights for real estate investors.
 

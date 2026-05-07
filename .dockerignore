@@ -1,0 +1,23 @@
+# Exclude dev/test/local environments
+.git
+.gitignore
+.env
+.env.example
+venv
+.venv
+env
+__pycache__
+*.pyc
+
+# Exclude your internal docs and tests
+dev_meta/
+sample_schemas/
+test_connection.py
+AGENTCONTEXT.MD
+AGENTPREFERREDPRACTICES.MD
+README.MD
+
+# Exclude build files
+build/
+dist/
+*.egg-info/

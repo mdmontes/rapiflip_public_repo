@@ -1,0 +1,15 @@
+Deprecated
+PyJWT
+PyYAML
+charset-normalizer
+fastapi
+google-auth
+google-genai
+googlemaps
+pip-chill
+pyasn1_modules
+pydantic_core
+slowapi
+snowflake-snowpark-python
+uvicorn
+python-dotenv
