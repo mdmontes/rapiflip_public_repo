@@ -63,14 +63,14 @@ real_estate_engine/
 ├── requirements.txt                # Python dependencies
 └── test_connection.py              # Connectivity validation script
 ```
-
+## Critical Files
 - back_end/main.py: The core API server; integrates address parsing and property evaluation logic.
 - back_end/utils/generate_user_report.py: Orchestrates LLM calls to generate investment analysis reports.
 - back_end/utils/system_instructions.md: Contains the core logic and personas for the AI-driven analysis.
 - back_end/utils/zillow_utils.py: Logic for generating non-API Zillow property search links from address strings.
-- middleware/snowflake_log_middleware.py: Intercepts all traffic to log detailed metadata, granular latency metrics, and request bodies to Snowflake for audit and debugging.
-- middleware/session_manager.py: Manages the lifecycle of Snowflake sessions to ensure efficient resource usage.
-- find_address/: A modular library of search and valuation logic, separated by responsibility (API vs. Database vs. Calculation).
+- back_end/middleware/snowflake_log_middleware.py: Intercepts all traffic to log detailed metadata, granular latency metrics, and request bodies to Snowflake for audit and debugging.
+- back_end/middleware/session_manager.py: Manages the lifecycle of Snowflake sessions to ensure efficient resource usage.
+- back_end/find_address: A modular library of search and valuation logic, separated by responsibility (API vs. Database vs. Calculation).
 - AGENTPREFERREDPRACTICES.md: Foundational engineering guidelines for the project.
 
 ## Production Level Directory
